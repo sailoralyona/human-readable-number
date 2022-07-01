@@ -35,19 +35,19 @@ it('Should return \'four\' when 4 given', () => {
 
 it('Should return \'five\' when 5 given', () => {
   const readable = toReadable(5);
-
+  
   assert.equal(readable, 'five');
 });
 
 it('Should return \'six\' when 6 given', () => {
   const readable = toReadable(6);
-
+  
   assert.equal(readable, 'six');
 });
 
 it('Should return \'seven\' when 7 given', () => {
   const readable = toReadable(7);
-
+  
   assert.equal(readable, 'seven');
 });
 
@@ -71,7 +71,7 @@ it('Should return \'ten\' when 10 given', () => {
 
 it('Should return \'eleven\' when 11 given', () => {
   const readable = toReadable(11);
-
+  
   assert.equal(readable, 'eleven');
 });
 
@@ -95,25 +95,25 @@ it('Should return \'fourteen\' when 14 given', () => {
 
 it('Should return \'fifteen\' when 15 given', () => {
   const readable = toReadable(15);
-
+  
   assert.equal(readable, 'fifteen');
 });
 
 it('Should return \'sixteen\' when 16 given', () => {
   const readable = toReadable(16);
-
+  
   assert.equal(readable, 'sixteen');
 });
 
 it('Should return \'seventeen\' when 17 given', () => {
   const readable = toReadable(17);
-
+  
   assert.equal(readable, 'seventeen');
 });
 
 it('Should return \'eighteen\' when 18 given', () => {
   const readable = toReadable(18);
-
+  
   assert.equal(readable, 'eighteen');
 });
 
@@ -125,7 +125,7 @@ it('Should return \'nineteen\' when 19 given', () => {
 
 it('Should return \'twenty\' when 20 given', () => {
   const readable = toReadable(20);
-
+  
   assert.equal(readable, 'twenty');
 });
 
@@ -146,16 +146,15 @@ it('Should return \'twenty three\' when 23 given', () => {
 
   assert.equal(readable, 'twenty three');
 });
-
 it('Should return \'twenty four\' when 24 given', () => {
   const readable = toReadable(24);
-
+  
   assert.equal(readable, 'twenty four');
 });
 
 it('Should return \'twenty five\' when 25 given', () => {
   const readable = toReadable(25);
-
+  
   assert.equal(readable, 'twenty five');
 });
 
@@ -173,7 +172,7 @@ it('Should return \'twenty seven\' when 27 given', () => {
 
 it('Should return \'twenty eight\' when 28 given', () => {
   const readable = toReadable(28);
-
+  
   assert.equal(readable, 'twenty eight');
 });
 
@@ -185,13 +184,13 @@ it('Should return \'twenty nine\' when 29 given', () => {
 
 it('Should return \'thirty\' when 30 given', () => {
   const readable = toReadable(30);
-
+  
   assert.equal(readable, 'thirty');
 });
 
 it('Should return \'thirty one\' when 31 given', () => {
   const readable = toReadable(31);
-
+  
   assert.equal(readable, 'thirty one');
 });
 
@@ -263,7 +262,7 @@ it('Should return \'forty two\' when 42 given', () => {
 
 it('Should return \'forty three\' when 43 given', () => {
   const readable = toReadable(43);
-
+  
   assert.equal(readable, 'forty three');
 });
 
@@ -320,6 +319,7 @@ it('Should return \'fifty two\' when 52 given', () => {
 
   assert.equal(readable, 'fifty two');
 });
+  
 
 it('Should return \'fifty three\' when 53 given', () => {
   const readable = toReadable(53);
